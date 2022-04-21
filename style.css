@@ -1,0 +1,174 @@
+#header {
+    background: linear-gradient(to right, #212121 20%,#353535);
+    float: left;
+    display: block;
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background-color: palegoldenrod;
+    /* background-image: radial-gradient(farthest-side at 60% 55%, blue, green, yellow, black); */
+}
+
+#header .rightTop {
+    float: right;
+    /* position: fixed; */
+    display: block;
+    color: #f2f2f2;
+    height: 50px;
+    /* width: 100px; */
+    text-decoration: none;
+}
+
+#header .rightTop .Title{
+    font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
+    display: block;
+    color: #f2f2f2;
+    padding: 15px 20px;
+    text-align: center;
+
+    /* padding-top: 1px;
+    padding-right:2%; */
+    text-decoration: none;
+}
+
+#header .leftTop {
+    font-family: Verdana, Calibry, Geneva, Tahoma, sans-serif;
+    float: left;
+    /* position: fixed; */
+    display: block;
+    color: #f2f2f2;
+    height: 50px;
+    /* width: 100px; */
+    text-decoration: none;
+}
+
+#header .leftTop .Title{
+    font-family: Verdana, Calibry, Geneva, Tahoma, sans-serif;
+    display: block;
+    color: #f2f2f2;
+    padding: 15px 20px;
+    text-align: center;
+
+    /* padding-top: 1px;
+    padding-right:2%; */
+    text-decoration: none;
+}
+
+#header .rightTop :hover{
+    background-color: rgb(96, 96, 96);
+}
+
+#header .leftTop :hover{
+    background-color: rgb(96, 96, 96);
+}
+
+#content{
+    font-family: Verdana, Calibry, Geneva, Tahoma, sans-serif;
+    /* font-family: Calibri; */
+    font-size: 80%;
+    position: fixed;
+    left: 0%;
+    top: 40%;
+    height: 50%;
+    width: 40%;
+    padding-left: 20%;
+}
+
+#content .intro .name{
+    color: blue;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    /* width: auto; */
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-github {
+    background: white;
+    color: black;
+  }
+
+  .fa-instagram {
+    background: rgb(196, 29, 121);
+    color: white;
+  }
+
+#image{
+    /* font-family: Verdana, Calibry, Geneva, Tahoma, sans-serif; */
+    /* font-family: Calibri; */
+    position: fixed;
+    left: 60%;
+    top: 15%;
+    height: 60%;
+    width: 50%
+}
+
+#bottom {
+    background: linear-gradient(to right, #212121 20%,#353535);
+    float: left;
+    display: block;
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    bottom: 0%;
+    left: 0;
+}
+
+#bottom .copyRight{
+    font-family: Verdana, Calibry, Geneva, Tahoma, sans-serif;
+
+    text-align: center;
+    color: white;
+    padding-bottom: 100%;
+}
+
+#contact{
+    font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    left: 0%;
+    top: 40%;
+    height: 50%;
+    width: 40%;
+    padding-left: 20%;
+}
+
+#contact .phoneNumber{
+    position: fixed;
+    left: 0%;
+    top: 40%;
+    height: 10%;
+    width: 40%;
+    padding-left: 20%;
+}
+
+#contact .emailID{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    height: 10%;
+    width: 40%;
+    padding-left: 20%;
+
+
+}
