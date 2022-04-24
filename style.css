@@ -10,7 +10,6 @@
     left: 0;
 }
 
-
 #header .rightTop {
     float: right;
     /* position: fixed; */
@@ -289,28 +288,28 @@
 
 }
 
-#project{
+#projectLeft{
     position: fixed;
     left: 0%;
-    top: 30%;
+    top: 10%;
     height: 70%;
-    width: 55%;
+    width: 50%;
 
 }
 
-#project .box{
+#projectLeft .box{
     position: relative;
-    height: 30%;
+    height: 25%;
     width: 90%;
     /* border-style: solid; */
-    margin: 3%;
+    /* margin: 3%; */
     /* border-color: rgb(114, 114, 114); */
     /* background: linear-gradient(to right, #bebebe 20%,#7a7a7a); */
     /* color: white; */
     /* color: black; */
 }
 
-#project .resHeader{
+#projectLeft .resHeader{
     font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
     position: relative;
     text-align: left;
@@ -320,7 +319,7 @@
     top: -10%;
 }
 
-#project .resDesc{
+#projectLeft .resDesc{
     font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
     position: relative;
     text-align: left;
@@ -331,7 +330,7 @@
     
 }
 
-#project .redDetail1{
+#projectLeft .redDetail1{
     font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
     position: relative;
     text-align: left;
@@ -342,7 +341,71 @@
 
 }
 
-#project .redDetail2{
+#projectLeft .redDetail2{
+    font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: left;
+    width: 90%;
+    /* height: 50%; */
+    padding-left: 5%;
+    top: -30%;
+
+}
+
+#projectRight{
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    height: 70%;
+    width: 50%;
+
+}
+
+#projectRight .box{
+    position: relative;
+    height: 25%;
+    width: 90%;
+    /* border-style: solid; */
+    /* margin: 3%; */
+    /* border-color: rgb(114, 114, 114); */
+    /* background: linear-gradient(to right, #bebebe 20%,#7a7a7a); */
+    /* color: white; */
+    /* color: black; */
+}
+
+#projectRight .resHeader{
+    font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    /* height: 50%; */
+    padding-left: 5%;
+    top: -10%;
+}
+
+#projectRight .resDesc{
+    font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    /* height: 50%; */
+    padding-left: 5%;
+    top: -15%;
+    
+}
+
+#projectRight .redDetail1{
+    font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: left;
+    width: 90%;
+    /* height: 50%; */
+    padding-left: 5%;
+    top: -20%;
+
+}
+
+#projectRight .redDetail2{
     font-family: Verdana, Calibri, Geneva, Tahoma, sans-serif;
     position: relative;
     text-align: left;
